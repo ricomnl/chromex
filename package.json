@@ -1,0 +1,20 @@
+{
+  "name": "chromex-sample-shadow",
+  "version": "1.0.0",
+  "description": "chromex example working with shadow-cljs",
+  "main": "index.js",
+  "scripts": {
+    "watch": "shadow-cljs watch extension",
+    "compile": "shadow-cljs compile extension",
+    "release": "shadow-cljs release extension",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "shadow-cljs": "2.11.7"
+  },
+  "dependencies": {
+    "@rmeinl/crx-hotreload-no-page-refresh": "1.0.0"
+  }
+}
